@@ -30,6 +30,6 @@
         <PackageReference Include="Soenneker.Managers.Runners" Version="4.0.2016" />
         <PackageReference Include="Soenneker.OpenApi.Fixer" Version="4.0.213" />
         <PackageReference Include="Soenneker.Postman.Converter" Version="4.0.6" />
-        <PackageReference Include="Soenneker.Utils.File.Download" Version="4.0.1549" />
+        <PackageReference Include="Soenneker.Utils.File.Download" Version="4.0.1550" />
     </ItemGroup>
 </Project>
