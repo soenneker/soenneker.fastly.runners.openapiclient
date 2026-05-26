@@ -38,7 +38,7 @@ public sealed class FileOperationsUtil : IFileOperationsUtil
     private readonly IPostmanConverter _postmanConverter;
 
     public FileOperationsUtil(ILogger<FileOperationsUtil> logger, IConfiguration configuration, IGitUtil gitUtil, IDotnetUtil dotnetUtil, IProcessUtil processUtil, 
-        IFileDownloadUtil fileDownloadUtil, IFileUtil fileUtil, IDirectoryUtil directoryUtil, IOpenApiFixer openApiFixer, IPostmanConverter postmanConverter, IKiotaUtil kiotaUtil)
+        IFileDownloadUtil fileDownloadUtil, IFileUtil fileUtil, IDirectoryUtil directoryUtil, IPostmanConverter postmanConverter, IKiotaUtil kiotaUtil, IOpenApiFixer openApiFixer)
     {
         _logger = logger;
         _configuration = configuration;
